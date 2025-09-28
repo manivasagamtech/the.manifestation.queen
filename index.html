@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manisha | Manifestation Coach</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header/Navigation -->
-    <header class="header">
-        <nav class="nav">
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <nav class="nav-container">
             <div class="logo">
                 <h2>Manisha</h2>
             </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -30,55 +30,68 @@
         </nav>
     </header>
 
-    <!-- Home Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
                 <h1 class="hero-title">Welcome to Your Best Life</h1>
                 <p class="hero-subtitle">Manifest your 'Best Life' with Manisha's energy</p>
-                <p class="hero-description">Transform your mindset, align your energy, and create the life you've always dreamed of.</p>
-                <a href="#contact" class="cta-button">Connect with Queen</a>
+                <p class="hero-description">
+                    Transform your mindset, unlock your potential, and step into the extraordinary life you deserve. 
+                    Your journey to manifestation begins here.
+                </p>
+                <a href="#contact" class="cta-btn">Connect with Queen</a>
             </div>
             <div class="hero-image">
-                <img src="image.jpg" alt="Manisha - Manifestation Coach" class="coach-photo">
-                <div class="glow-effect"></div>
+                <div class="image-wrapper">
+                    <img src="image.jpg" alt="Manisha - Manifestation Coach" class="profile-image">
+                    <div class="golden-glow"></div>
+                </div>
             </div>
         </div>
-        <div class="floating-elements">
+        
+        <!-- Floating Elements -->
+        <div class="floating-sparkles">
             <div class="sparkle sparkle-1"></div>
             <div class="sparkle sparkle-2"></div>
             <div class="sparkle sparkle-3"></div>
             <div class="sparkle sparkle-4"></div>
+            <div class="sparkle sparkle-5"></div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
+    <section id="about" class="about-section">
         <div class="container">
-            <div class="about-content">
+            <div class="about-grid">
                 <div class="about-image">
-                    <img src="image.jpg" alt="About Manisha" class="about-photo">
+                    <img src="image.jpg" alt="Manisha About" class="about-photo">
                 </div>
-                <div class="about-text">
-                    <h2 class="section-title">About Manisha</h2>
-                    <p class="about-bio">"Buddhi theek karna, is my PESHA. I'm Manisha, your Manifestation Coach."</p>
-                    <p class="about-description">
-                        With years of experience in energy healing and manifestation coaching, I help individuals 
-                        transform their limiting beliefs and align with their highest potential. My approach combines 
-                        ancient wisdom with modern techniques to create lasting change in your life.
+                <div class="about-content">
+                    <h2 class="section-heading">About Manisha</h2>
+                    <p class="about-quote">"Buddhi theek karna, is my PESHA. I'm Manisha, your Manifestation Coach."</p>
+                    <p class="about-text">
+                        With deep understanding of energy healing and manifestation principles, I guide souls on their 
+                        transformational journey. My unique approach combines ancient wisdom with modern techniques to 
+                        help you align with your highest potential and manifest the life you truly desire.
                     </p>
-                    <div class="stats">
+                    <p class="about-text">
+                        Every session is crafted with love, intention, and the profound belief that you already have 
+                        everything within you to create miracles. Let's unlock that power together.
+                    </p>
+                    
+                    <div class="achievement-stats">
                         <div class="stat">
-                            <span class="stat-number">500+</span>
+                            <span class="stat-number" data-target="1000">0</span>
                             <span class="stat-label">Lives Transformed</span>
                         </div>
                         <div class="stat">
-                            <span class="stat-number">5+</span>
+                            <span class="stat-number" data-target="7">0</span>
                             <span class="stat-label">Years Experience</span>
                         </div>
                         <div class="stat">
-                            <span class="stat-number">100%</span>
-                            <span class="stat-label">Success Rate</span>
+                            <span class="stat-number" data-target="98">0</span>
+                            <span class="stat-label">Success Rate %</span>
                         </div>
                     </div>
                 </div>
@@ -87,102 +100,141 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services">
+    <section id="services" class="services-section">
         <div class="container">
-            <h2 class="section-title">My Services</h2>
-            <p class="section-subtitle">Discover how I can help you manifest your best life</p>
+            <div class="section-header">
+                <h2 class="section-heading">My Services</h2>
+                <p class="section-subtitle">Discover the pathways to your transformation</p>
+            </div>
+            
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-icon">
                         <i class="fas fa-eye"></i>
                     </div>
-                    <h3>Clarity Coaching</h3>
-                    <p>Gain crystal clear vision of your goals and remove mental blocks that hold you back from achieving greatness.</p>
+                    <h3 class="service-title">Clarity Coaching</h3>
+                    <p class="service-description">
+                        Gain crystal clear vision of your goals and dissolve the mental fog that keeps you stuck. 
+                        Discover your true purpose and align your actions with your soul's calling.
+                    </p>
                 </div>
-                <div class="service-card">
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-icon">
                         <i class="fas fa-balance-scale"></i>
                     </div>
-                    <h3>Energy Alignment</h3>
-                    <p>Align your energy with your desires through powerful techniques that harmonize mind, body, and spirit.</p>
+                    <h3 class="service-title">Energy Alignment</h3>
+                    <p class="service-description">
+                        Harmonize your mind, body, and spirit through powerful energy healing techniques. 
+                        Remove blocks and raise your vibration to attract what you truly desire.
+                    </p>
                 </div>
-                <div class="service-card">
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-icon">
                         <i class="fas fa-star"></i>
                     </div>
-                    <h3>Personalized Manifestation Plan</h3>
-                    <p>Get a customized roadmap designed specifically for your unique journey to manifest your dreams into reality.</p>
+                    <h3 class="service-title">Personalized Manifestation Plan</h3>
+                    <p class="service-description">
+                        Receive a customized roadmap designed specifically for your unique journey. 
+                        Transform your dreams into reality with proven manifestation strategies.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials-section">
         <div class="container">
-            <h2 class="section-title">What My Clients Say</h2>
+            <div class="section-header">
+                <h2 class="section-heading">What Souls Are Saying</h2>
+            </div>
+            
             <div class="testimonials-container">
                 <!-- Written Testimonials -->
-                <div class="written-testimonials">
+                <div class="testimonials-written">
                     <div class="testimonial-slider">
-                        <div class="testimonial active">
+                        <div class="testimonial-item active">
                             <div class="testimonial-content">
-                                <p>"Manisha completely transformed my mindset. Her energy healing sessions helped me overcome years of self-doubt and manifest the job of my dreams!"</p>
+                                <div class="quote-icon">"</div>
+                                <p class="testimonial-text">
+                                    "Manisha's energy healing completely transformed my life. I went from feeling lost and stuck 
+                                    to manifesting my dream job within 2 months. Her guidance is pure magic!"
+                                </p>
                                 <div class="testimonial-author">
-                                    <img src="https://via.placeholder.com/60x60" alt="Client">
+                                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b7d9?w=150" alt="Priya Sharma">
                                     <div class="author-info">
                                         <h4>Priya Sharma</h4>
-                                        <span>Marketing Executive</span>
+                                        <span>Marketing Director</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="testimonial">
+                        
+                        <div class="testimonial-item">
                             <div class="testimonial-content">
-                                <p>"Working with Manisha was life-changing. Her clarity coaching helped me identify my true purpose and align my actions with my goals."</p>
+                                <div class="quote-icon">"</div>
+                                <p class="testimonial-text">
+                                    "Working with Manisha was a soul-awakening experience. Her clarity coaching helped me 
+                                    discover my life purpose and now I'm living my dreams every single day!"
+                                </p>
                                 <div class="testimonial-author">
-                                    <img src="https://via.placeholder.com/60x60" alt="Client">
+                                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150" alt="Arjun Patel">
                                     <div class="author-info">
-                                        <h4>Rahul Gupta</h4>
-                                        <span>Entrepreneur</span>
+                                        <h4>Arjun Patel</h4>
+                                        <span>Life Coach & Entrepreneur</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="testimonial">
+                        
+                        <div class="testimonial-item">
                             <div class="testimonial-content">
-                                <p>"The personalized manifestation plan Manisha created for me was exactly what I needed. I manifested my dream relationship within 3 months!"</p>
+                                <div class="quote-icon">"</div>
+                                <p class="testimonial-text">
+                                    "The personalized manifestation plan Manisha created for me was exactly what my soul needed. 
+                                    I manifested my soulmate and dream home within 6 months!"
+                                </p>
                                 <div class="testimonial-author">
-                                    <img src="https://via.placeholder.com/60x60" alt="Client">
+                                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150" alt="Kavya Singh">
                                     <div class="author-info">
-                                        <h4>Anita Kapoor</h4>
-                                        <span>Teacher</span>
+                                        <h4>Kavya Singh</h4>
+                                        <span>Artist & Healer</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="testimonial-nav">
-                        <button class="nav-dot active" data-slide="0"></button>
-                        <button class="nav-dot" data-slide="1"></button>
-                        <button class="nav-dot" data-slide="2"></button>
+                    
+                    <div class="testimonial-controls">
+                        <button class="control-dot active" data-slide="0"></button>
+                        <button class="control-dot" data-slide="1"></button>
+                        <button class="control-dot" data-slide="2"></button>
                     </div>
                 </div>
-
+                
                 <!-- Video Testimonials -->
                 <div class="video-testimonials">
-                    <h3>Video Testimonials</h3>
+                    <h3 class="video-title">Video Stories</h3>
                     <div class="video-grid">
                         <div class="video-item">
-                            <div class="video-placeholder">
-                                <i class="fas fa-play"></i>
-                                <span>Client Success Story</span>
+                            <div class="video-overlay">
+                                <i class="fas fa-play video-play-btn"></i>
+                                <div class="video-info">
+                                    <h4>Sarah's Transformation</h4>
+                                    <span>From Doubt to Dreams</span>
+                                </div>
                             </div>
                         </div>
+                        
                         <div class="video-item">
-                            <div class="video-placeholder">
-                                <i class="fas fa-play"></i>
-                                <span>Transformation Journey</span>
+                            <div class="video-overlay">
+                                <i class="fas fa-play video-play-btn"></i>
+                                <div class="video-info">
+                                    <h4>Raj's Success Story</h4>
+                                    <span>Manifesting Abundance</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -192,64 +244,123 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact-section">
         <div class="container">
-            <h2 class="section-title">Connect with Queen</h2>
-            <p class="section-subtitle">Ready to start your transformation journey?</p>
-            <div class="contact-content">
+            <div class="section-header">
+                <h2 class="section-heading">Connect with Queen</h2>
+                <p class="section-subtitle">Ready to begin your transformation journey?</p>
+            </div>
+            
+            <div class="contact-grid">
                 <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <p>Let's discuss how I can help you manifest your best life. Fill out the form and I'll get back to you within 24 hours.</p>
+                    <h3>Let's Start Your Journey</h3>
+                    <p class="contact-description">
+                        Your transformation awaits. Share your dreams with me and let's co-create the magic together. 
+                        I typically respond within 24 hours with love and light.
+                    </p>
+                    
                     <div class="contact-details">
                         <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>manisha@manifestationqueen.com</span>
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Email Me</span>
+                                <p>queen@manifestationcoach.com</p>
+                            </div>
                         </div>
+                        
                         <div class="contact-item">
-                            <i class="fab fa-instagram"></i>
-                            <span>@the.manifestation.queen</span>
+                            <div class="contact-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Follow My Journey</span>
+                                <p>@the.manifestation.queen</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>WhatsApp Chat</span>
+                                <p>Direct message for instant connection</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                    <div class="form-message" id="formMessage"></div>
-                </form>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Share your dreams and goals with me..." required></textarea>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="form-submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading">Sending...</span>
+                        </button>
+                        
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
+        <div class="footer-divider"></div>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
                     <h3>Manisha</h3>
                     <p>Manifestation Coach</p>
+                    <p class="footer-tagline">✨ Transforming lives through divine energy ✨</p>
                 </div>
-                <div class="social-links">
-                    <a href="https://instagram.com/the.manifestation.queen" target="_blank">
+                
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <div class="social-media">
+                    <a href="https://instagram.com/the.manifestation.queen" target="_blank" class="social-link">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://wa.me/your-number" target="_blank">
+                    <a href="https://wa.me/your-number" target="_blank" class="social-link">
                         <i class="fab fa-whatsapp"></i>
                     </a>
-                    <a href="mailto:manisha@manifestationqueen.com">
+                    <a href="mailto:queen@manifestationcoach.com" class="social-link">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </div>
             </div>
+            
             <div class="footer-bottom">
-                <p>&copy; 2025 Manisha | Manifestation Coach. All rights reserved.</p>
+                <p>&copy; 2025 Manisha | Manifestation Coach. All rights reserved. Made with ✨ and love.</p>
             </div>
         </div>
     </footer>
