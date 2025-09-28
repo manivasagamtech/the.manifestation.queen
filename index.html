@@ -3,103 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manisha | Manifestation Coach</title>
+    <title>Mrunal - Mental Health Professional | Healing Minds with Compassion</title>
+    <meta name="description" content="Professional mental health counseling services with Mrunal, a experienced psychologist dedicated to healing minds with compassion and care.">
+    <meta name="keywords" content="mental health, therapy, counseling, psychologist, healing, wellness, anxiety, depression">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation Header -->
-    <header class="navbar">
-        <nav class="nav-container">
-            <div class="logo">
-                <h2>Manisha ✨</h2>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-heart me-2"></i>Mrunal
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
-                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero-section">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-badge">✨ Transform Your Life ✨</div>
-                <h1 class="hero-title">Welcome to Your Best Life</h1>
-                <p class="hero-subtitle">Manifest your 'Best Life' with Manisha's energy</p>
-                <p class="hero-description">
-                    🌟 Transform your mindset, unlock your infinite potential, and step into the extraordinary 
-                    life you deserve. Your magical journey to manifestation begins right here, right now! 🌟
-                </p>
-                <a href="#contact" class="cta-btn">
-                    <span>Connect with Queen</span>
-                    <i class="fas fa-sparkles"></i>
-                </a>
-            </div>
-            <div class="hero-visual">
-                <div class="manifesto-card">
-                    <div class="card-icon">🌈</div>
-                    <h3>Your Dreams Await</h3>
-                    <p>Ready to manifest miracles?</p>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Healing Minds with Compassion & Care</h1>
+                        <p class="hero-subtitle">Professional Mental Health Support for Your Journey to Wellness</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary btn-lg me-3">Start Your Healing Journey</a>
+                            <a href="#about" class="btn btn-outline-light btn-lg">Learn More</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="floating-elements">
-                    <div class="float-element">✨</div>
-                    <div class="float-element">🦋</div>
-                    <div class="float-element">🌟</div>
-                    <div class="float-element">💫</div>
-                    <div class="float-element">🌸</div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="https://imagizer.imageshack.com/img923/2493/G0nNG8.jpg" alt="Mrunal - Mental Health Professional" class="img-fluid rounded-circle shadow-lg">
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <a href="#about" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about-section">
+    <section id="about" class="section-padding">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <div class="section-badge">🌟 Meet Your Guide 🌟</div>
-                    <h2 class="section-heading">About Manisha</h2>
-                    <div class="quote-card">
-                        <div class="quote-icon">💖</div>
-                        <p class="about-quote">"Buddhi theek karna, is my PESHA. I'm Manisha, your Manifestation Coach."</p>
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">About Mrunal</h2>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-image">
+                        <img src="https://imagizer.imageshack.com/img923/2493/G0nNG8.jpg" alt="Mrunal - Psychologist" class="img-fluid rounded shadow-lg">
                     </div>
-                    <p class="about-description">
-                        🌺 With deep understanding of energy healing and manifestation principles, I guide beautiful souls 
-                        on their transformational journey. My unique approach combines ancient wisdom with modern techniques 
-                        to help you align with your highest potential! 🌺
-                    </p>
-                    <p class="about-description">
-                        ✨ Every session is crafted with love, intention, and the profound belief that you already have 
-                        everything within you to create miracles. Let's unlock that magical power together! ✨
-                    </p>
-                    
-                    <div class="achievement-stats">
-                        <div class="stat-card">
-                            <div class="stat-icon">🌟</div>
-                            <span class="stat-number" data-target="1000">0</span>
-                            <span class="stat-label">Lives Transformed</span>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="about-content">
+                        <h3 class="about-name">Mrunal</h3>
+                        <p class="about-credentials"><i class="fas fa-graduation-cap me-2"></i>Psychologist, Mental Health Professional</p>
+                        <p class="about-experience"><i class="fas fa-calendar-alt me-2"></i>Healing minds since 3 years</p>
+
+                        <div class="about-qualities">
+                            <span class="quality-badge">Grateful</span>
+                            <span class="quality-badge">Thankful</span>
+                            <span class="quality-badge">Growing</span>
+                            <span class="quality-badge">Glowing</span>
                         </div>
-                        <div class="stat-card">
-                            <div class="stat-icon">💫</div>
-                            <span class="stat-number" data-target="7">0</span>
-                            <span class="stat-label">Years Experience</span>
+
+                        <p class="about-bio">
+                            Dedicated to providing compassionate mental health support and helping clients achieve emotional wellness and personal growth. 
+                            My approach focuses on creating a safe, non-judgmental space where healing can begin.
+                        </p>
+
+                        <div class="about-specializations">
+                            <h5>Specializations:</h5>
+                            <ul>
+                                <li>Psychology & Mental Health Support</li>
+                                <li>Emotional Wellness Counseling</li>
+                                <li>Personal Growth & Development</li>
+                            </ul>
                         </div>
-                        <div class="stat-card">
-                            <div class="stat-icon">🎯</div>
-                            <span class="stat-number" data-target="98">0</span>
-                            <span class="stat-label">Success Rate %</span>
-                        </div>
+
+                        <p class="about-mission">
+                            <strong>Mission:</strong> To provide accessible, compassionate mental health care that empowers individuals 
+                            to overcome challenges and thrive in their personal journey.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -107,61 +125,85 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services-section">
+    <section id="services" class="section-padding bg-light">
         <div class="container">
-            <div class="section-header">
-                <div class="section-badge">🌈 Your Transformation Journey 🌈</div>
-                <h2 class="section-heading">My Magical Services</h2>
-                <p class="section-subtitle">Discover the pathways to your amazing transformation ✨</p>
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Professional Services</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Comprehensive mental health support tailored to your unique needs</p>
+                </div>
             </div>
-            
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-header">
-                        <div class="service-icon">👁️</div>
-                        <div class="service-emoji">🔮</div>
-                    </div>
-                    <h3 class="service-title">Clarity Coaching</h3>
-                    <p class="service-description">
-                        ✨ Gain crystal clear vision of your goals and dissolve the mental fog that keeps you stuck. 
-                        Discover your true purpose and align your actions with your soul's calling! 🎯
-                    </p>
-                    <div class="service-features">
-                        <span class="feature">🌟 Goal Clarity</span>
-                        <span class="feature">💎 Purpose Discovery</span>
+            <div class="row">
+                <!-- Service 1 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <h4>Individual Therapy Sessions</h4>
+                        <p>One-on-one counseling sessions focused on your personal growth and healing journey in a safe, confidential environment.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Learn More</a>
                     </div>
                 </div>
-                
-                <div class="service-card featured">
-                    <div class="service-badge">Most Popular 🔥</div>
-                    <div class="service-header">
-                        <div class="service-icon">⚖️</div>
-                        <div class="service-emoji">🌈</div>
-                    </div>
-                    <h3 class="service-title">Energy Alignment</h3>
-                    <p class="service-description">
-                        🌺 Harmonize your mind, body, and spirit through powerful energy healing techniques. 
-                        Remove blocks and raise your vibration to attract what you truly desire! ✨
-                    </p>
-                    <div class="service-features">
-                        <span class="feature">🧘‍♀️ Mind-Body Harmony</span>
-                        <span class="feature">⚡ Vibration Boost</span>
+
+                <!-- Service 2 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>Mental Health Counseling</h4>
+                        <p>Professional guidance for mental health challenges, helping you develop coping strategies and resilience.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Learn More</a>
                     </div>
                 </div>
-                
-                <div class="service-card">
-                    <div class="service-header">
-                        <div class="service-icon">⭐</div>
-                        <div class="service-emoji">🎨</div>
+
+                <!-- Service 3 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Emotional Wellness Support</h4>
+                        <p>Comprehensive support for emotional well-being, helping you understand and manage your emotions effectively.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Learn More</a>
                     </div>
-                    <h3 class="service-title">Personalized Manifestation Plan</h3>
-                    <p class="service-description">
-                        🎨 Receive a customized roadmap designed specifically for your unique journey. 
-                        Transform your dreams into reality with proven manifestation strategies! 🌟
-                    </p>
-                    <div class="service-features">
-                        <span class="feature">📋 Custom Roadmap</span>
-                        <span class="feature">🚀 Dream Realization</span>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h4>Personal Growth Coaching</h4>
+                        <p>Empowering you to unlock your potential and achieve personal development goals through structured guidance.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Stress & Anxiety Management</h4>
+                        <p>Specialized techniques and strategies to help you manage stress and anxiety in daily life effectively.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <h4>Depression Support</h4>
+                        <p>Compassionate support and evidence-based treatments to help you overcome depression and find hope.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -169,102 +211,86 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials-section">
+    <section id="testimonials" class="section-padding">
         <div class="container">
-            <div class="section-header">
-                <div class="section-badge">💖 Love Letters from Souls 💖</div>
-                <h2 class="section-heading">What Beautiful Souls Are Saying</h2>
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Client Testimonials</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Hear from those who have found healing and growth</p>
+                </div>
             </div>
-            
-            <div class="testimonials-container">
-                <!-- Written Testimonials -->
-                <div class="testimonials-written">
-                    <div class="testimonial-slider">
-                        <div class="testimonial-item active">
-                            <div class="testimonial-content">
-                                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                                <p class="testimonial-text">
-                                    "Manisha's energy healing completely transformed my life! 🌟 I went from feeling lost and stuck 
-                                    to manifesting my dream job within 2 months. Her guidance is pure magic! ✨"
-                                </p>
-                                <div class="testimonial-author">
-                                    <div class="author-avatar">🌺</div>
-                                    <div class="author-info">
-                                        <h4>Priya Sharma</h4>
-                                        <span>Marketing Director 💼</span>
-                                    </div>
-                                </div>
-                            </div>
+
+            <!-- Written Testimonials -->
+            <div class="row mb-5">
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Mrunal's compassionate approach helped me overcome my anxiety. Her professional guidance and genuine care made all the difference in my healing journey."</p>
                         </div>
-                        
-                        <div class="testimonial-item">
-                            <div class="testimonial-content">
-                                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                                <p class="testimonial-text">
-                                    "Working with Manisha was a soul-awakening experience! 🦋 Her clarity coaching helped me 
-                                    discover my life purpose and now I'm living my dreams every single day! 🌈"
-                                </p>
-                                <div class="testimonial-author">
-                                    <div class="author-avatar">🌟</div>
-                                    <div class="author-info">
-                                        <h4>Arjun Patel</h4>
-                                        <span>Life Coach & Entrepreneur 🚀</span>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="testimonial-author">
+                            <strong>A.S.</strong>
+                            <span>Mumbai, Maharashtra</span>
                         </div>
-                        
-                        <div class="testimonial-item">
-                            <div class="testimonial-content">
-                                <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                                <p class="testimonial-text">
-                                    "The personalized manifestation plan Manisha created was exactly what my soul needed! 💖 
-                                    I manifested my soulmate and dream home within 6 months! Pure magic! ✨"
-                                </p>
-                                <div class="testimonial-author">
-                                    <div class="author-avatar">🌸</div>
-                                    <div class="author-info">
-                                        <h4>Kavya Singh</h4>
-                                        <span>Artist & Healer 🎨</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="testimonial-controls">
-                        <button class="control-dot active" data-slide="0"></button>
-                        <button class="control-dot" data-slide="1"></button>
-                        <button class="control-dot" data-slide="2"></button>
                     </div>
                 </div>
-                
-                <!-- Video Testimonials -->
-                <div class="video-testimonials">
-                    <h3 class="video-title">🎥 Video Stories of Transformation</h3>
-                    <div class="video-grid">
-                        <div class="video-item">
-                            <div class="video-overlay">
-                                <div class="play-circle">
-                                    <i class="fas fa-play"></i>
-                                </div>
-                                <div class="video-info">
-                                    <h4>🌟 Sarah's Amazing Journey</h4>
-                                    <span>From Doubt to Dreams ✨</span>
-                                </div>
-                            </div>
+
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"The therapy sessions with Mrunal transformed my perspective on life. I learned valuable coping strategies and found the strength to move forward."</p>
                         </div>
-                        
-                        <div class="video-item">
-                            <div class="video-overlay">
-                                <div class="play-circle">
-                                    <i class="fas fa-play"></i>
-                                </div>
-                                <div class="video-info">
-                                    <h4>💫 Raj's Success Story</h4>
-                                    <span>Manifesting Abundance 🌈</span>
-                                </div>
-                            </div>
+                        <div class="testimonial-author">
+                            <strong>R.P.</strong>
+                            <span>Pune, Maharashtra</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"I was hesitant about therapy, but Mrunal created such a safe and welcoming environment. Her expertise and empathy helped me heal and grow."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <strong>K.M.</strong>
+                            <span>Bangalore, Karnataka</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Testimonials -->
+            <div class="row">
+                <div class="col-lg-12 text-center mb-4" data-aos="fade-up">
+                    <h3>Hear from our clients</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="video-testimonial">
+                        <div class="video-placeholder">
+                            <i class="fas fa-play-circle"></i>
+                            <p>Client Video Testimonial 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="video-testimonial">
+                        <div class="video-placeholder">
+                            <i class="fas fa-play-circle"></i>
+                            <p>Client Video Testimonial 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="video-testimonial">
+                        <div class="video-placeholder">
+                            <i class="fas fa-play-circle"></i>
+                            <p>Client Video Testimonial 3</p>
                         </div>
                     </div>
                 </div>
@@ -273,127 +299,169 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <section id="contact" class="section-padding bg-light">
         <div class="container">
-            <div class="section-header">
-                <div class="section-badge">💫 Let's Connect 💫</div>
-                <h2 class="section-heading">Connect with Queen</h2>
-                <p class="section-subtitle">Ready to begin your magical transformation journey? ✨</p>
-            </div>
-            
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <div class="info-card">
-                        <h3>🌟 Let's Start Your Journey</h3>
-                        <p class="contact-description">
-                            Your transformation awaits! 🌈 Share your dreams with me and let's co-create the magic together. 
-                            I typically respond within 24 hours with love and light! ✨
-                        </p>
-                        
-                        <div class="contact-details">
-                            <div class="contact-item">
-                                <div class="contact-icon">📧</div>
-                                <div class="contact-text">
-                                    <span>Email Me ✨</span>
-                                    <p>queen@manifestationcoach.com</p>
-                                </div>
-                            </div>
-                            
-                            <div class="contact-item">
-                                <div class="contact-icon">📱</div>
-                                <div class="contact-text">
-                                    <span>Follow My Journey 🌈</span>
-                                    <p>@the.manifestation.queen</p>
-                                </div>
-                            </div>
-                            
-                            <div class="contact-item">
-                                <div class="contact-icon">💬</div>
-                                <div class="contact-text">
-                                    <span>WhatsApp Chat 💫</span>
-                                    <p>Direct message for instant connection</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Begin Your Healing Journey</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Take the first step towards better mental health</p>
                 </div>
-                
-                <div class="contact-form-container">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-header">
-                            <h3>✨ Send Your Message ✨</h3>
-                        </div>
-                        
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="name">🌟 Your Beautiful Name</label>
-                                <input type="text" id="name" name="name" placeholder="What should I call you?" required>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="intakeForm" class="intake-form" data-aos="fade-up" data-aos-delay="200">
+                        <!-- Personal Information -->
+                        <h4 class="form-section-title">Personal Information</h4>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="fullName" class="form-label">Full Name *</label>
+                                <input type="text" class="form-control" id="fullName" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" class="form-control" id="email" required>
                             </div>
                         </div>
-                        
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="email">📧 Your Email</label>
-                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="phone" class="form-label">Phone Number *</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="age" class="form-label">Age *</label>
+                                <input type="number" class="form-control" id="age" min="16" max="100" required>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="gender" class="form-label">Gender</label>
+                                <select class="form-select" id="gender">
+                                    <option value="">Select Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="prefer-not-to-say">Prefer not to say</option>
+                                </select>
                             </div>
                         </div>
-                        
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="message">💖 Share Your Dreams</label>
-                                <textarea id="message" name="message" rows="5" placeholder="Tell me about your dreams, goals, and what you'd love to manifest in your life... ✨" required></textarea>
+
+                        <div class="mb-4">
+                            <label for="cityState" class="form-label">City/State *</label>
+                            <input type="text" class="form-control" id="cityState" required>
+                        </div>
+
+                        <!-- Therapy Information -->
+                        <h4 class="form-section-title">Therapy Information</h4>
+
+                        <div class="mb-3">
+                            <label for="reasonForCounseling" class="form-label">Brief Reason For Seeking Counseling *</label>
+                            <textarea class="form-control" id="reasonForCounseling" rows="4" required></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="expectations" class="form-label">What are your expectations from counseling? *</label>
+                            <textarea class="form-control" id="expectations" rows="3" required></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Have You Taken Therapy Before? *</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="previousTherapy" id="therapyYes" value="yes" required>
+                                <label class="form-check-label" for="therapyYes">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="previousTherapy" id="therapyNo" value="no" required>
+                                <label class="form-check-label" for="therapyNo">No</label>
                             </div>
                         </div>
-                        
-                        <button type="submit" class="form-submit-btn">
-                            <span class="btn-text">Send Message 🚀</span>
-                            <span class="btn-loading">Sending... ✨</span>
-                        </button>
-                        
-                        <div class="form-message" id="formMessage"></div>
+
+                        <div class="mb-3">
+                            <label for="emergencyContact" class="form-label">Name & Contact Number of a Trusted Person (for emergencies only)</label>
+                            <textarea class="form-control" id="emergencyContact" rows="2" placeholder="Name: &#10;Contact Number:"></textarea>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="consent" required>
+                                <label class="form-check-label" for="consent">
+                                    I consent to start therapy with Mrunal and agree to be contacted via my preferred mode (email/whatsapp) *
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-paper-plane me-2"></i>Begin My Healing Journey
+                            </button>
+                        </div>
                     </form>
+
+                    <!-- Success Message -->
+                    <div id="successMessage" class="alert alert-success mt-4 d-none" data-aos="fade-up">
+                        <i class="fas fa-check-circle me-2"></i>
+                        Thank you for reaching out! Your form has been submitted successfully. Mrunal will contact you within 24 hours to schedule your first session.
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer bg-dark text-light">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>✨ Manisha ✨</h3>
-                    <p>Manifestation Coach 🌟</p>
-                    <p class="footer-tagline">🌈 Transforming lives through divine energy 🌈</p>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-heart me-2"></i>Mrunal</h5>
+                    <p>Confidential & Professional Mental Health Services</p>
+                    <p>Dedicated to healing minds with compassion and care.</p>
                 </div>
-                
-                <div class="footer-links">
-                    <a href="#home">🏠 Home</a>
-                    <a href="#about">👋 About</a>
-                    <a href="#services">🌟 Services</a>
-                    <a href="#testimonials">💖 Testimonials</a>
-                    <a href="#contact">📧 Contact</a>
+
+                <div class="col-lg-4 mb-4">
+                    <h5>Contact Information</h5>
+                    <p><i class="fas fa-envelope me-2"></i>contact@mrunal-therapy.com</p>
+                    <p><i class="fas fa-phone me-2"></i>+91 XXXX-XXXX-XX</p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>Professional Consultation Available</p>
                 </div>
-                
-                <div class="social-media">
-                    <a href="https://instagram.com/the.manifestation.queen" target="_blank" class="social-link">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://wa.me/your-number" target="_blank" class="social-link">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                    <a href="mailto:queen@manifestationcoach.com" class="social-link">
-                        <i class="fas fa-envelope"></i>
-                    </a>
+
+                <div class="col-lg-4 mb-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <p class="mt-3">
+                        <a href="#" class="text-light">Privacy Policy</a> | 
+                        <a href="#" class="text-light">Terms of Service</a>
+                    </p>
                 </div>
             </div>
-            
-            <div class="footer-bottom">
-                <p>© 2025 Manisha | Manifestation Coach. All rights reserved. Made with ✨ and infinite love 💖</p>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 Mrunal - Mental Health Professional. All rights reserved.</p>
+                    <p><small>Professional mental health services with complete confidentiality and care.</small></p>
+                </div>
             </div>
         </div>
     </footer>
 
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="loading-spinner">
+        <div class="spinner">
+            <i class="fas fa-heart"></i>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
     <script src="app.js"></script>
+
 </body>
 </html>
